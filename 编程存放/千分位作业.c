@@ -1,0 +1,62 @@
+#include<stdio.h>
+main()
+{
+int i=0,j=0,shu,yushu,l=0,k=0,y=0,m=0;
+long long fenshen,n,d=1;
+scanf("%lld",&n);
+fenshen=n;
+for(;fenshen>0;){
+j++;
+fenshen/=10;
+d*=10;
+}
+if(j<=3){
+	m=j;
+printf("%lld\n",n);
+}
+else
+{
+d=d/10;
+yushu=j%3;
+for(;n>0;){
+	m++;
+shu=n/d;
+n=n-shu*d;
+if(yushu!=0){
+l++;
+if(l==yushu+1){
+printf(",");
+k=1;
+}
+if(k==1)
+i++;
+d=d/10;
+printf("%d",shu);
+if(i%3==0&&k==1&&i!=(j-yushu))
+printf(",");
+}
+else{
+i++;
+m++;
+d=d/10;
+printf("%d",shu);
+if(i%3==0&&i!=j)
+printf(",");
+}
+}
+}
+	if(m!=j){
+		if(m==yushu){
+			printf(",");
+		}
+		for(;m<j;m++){
+			printf("0");
+			y++;
+			if((y)%3==0&&m!=(j-1)){
+				printf(",");
+			}
+		}
+	}
+return 0;
+}
+

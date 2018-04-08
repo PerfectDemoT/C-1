@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<math.h>
+
+int main()
+{
+	int R, X, N, A;
+	double result;
+	
+	printf("请分别输入年息R%，投资X美金，存期N年中的R,X,N的值，并用逗号分隔开：\n");
+	
+	scanf("%d,%d,%d",&R,&X,&N);
+	
+	result = X * pow((1+R/100.0), N);
+	
+	printf("Enter the amout of the initial deposit %lf \n", result);
+}

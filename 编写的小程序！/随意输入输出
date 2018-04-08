@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+	float m,n,k,i,;
+	float thefinalresult;
+	printf("«Î ‰»Îm:");
+	scanf("%f",&m);
+	printf("«Î ‰»În:");
+	scanf("%f",&n); 
+	printf("«Î ‰»Îk:"); 
+	scanf("%f",&k);
+	printf("«Î ‰»Îi:");
+	scanf("%f",&i);
+	thefinalresult=(m*i+16333)/n+k;
+	printf("thefinalresult=%.9f\n",thefinalresult);
+	return 0; 
+}

@@ -1,0 +1,4 @@
+﻿  源.cpp
+c:\users\ddx\desktop\文档\数据结构\上机作业\实验4：稀疏矩阵\consoleapplication2\consoleapplication2\源.cpp(35): warning C4101: “m”: 未引用的局部变量
+c:\users\ddx\desktop\文档\数据结构\上机作业\实验4：稀疏矩阵\consoleapplication2\consoleapplication2\源.cpp(35): warning C4101: “n”: 未引用的局部变量
+  ConsoleApplication2.vcxproj -> C:\Users\ddx\Desktop\文档\数据结构\上机作业\实验4：稀疏矩阵\ConsoleApplication2\Debug\ConsoleApplication2.exe

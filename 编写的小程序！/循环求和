@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+	int m,n,i;
+	m=3;
+	n=6;
+	i=m+n;
+	while(i<47643827)
+	{
+		i=m+n+i;
+		printf("%d\n",i);
+	}
+	return 0;
+}
